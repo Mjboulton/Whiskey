@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">Whiskey Drop</a>
+            </div>
+
+            <!-- navbar -->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="">About</a></li>
+                <li class="visible-xs"><a href="">Sign Up</a></li>
+            </ul>
+
+            <!-- Message -->
+            <div class="navbar-header navbar-right hidden-xs">
+                <a href="/Login" class="btn btn-default navbar-btn">Sign Up</a>
+                <p class="navbar-text"><i>Great whiskey delivered to your door</i></p>
+            </div>
+        </div>
+
+    </nav>
+
+    <article class="container">
+        <!-- Alert -->
+        <div class="row hidden-xs">
+            <div class="col-xs-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong>We've got a sale on. Get a 12 month substription for the price of 6. <a href="">See here for details</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="call out jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep</h1>
+                    <p class="lead">Sign up today to start receiving the worlds best whiskeys every month. <s class="hidden-xs">£19.99</s>
+                        <span class="visible-xs"><br></span>
+                        <stong><mark>First one is free!</mark></stong>
+                    </p>
+                    <p><button class="btn btn-large btn-success" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                    <p class="text-muted"><small>You must be over 18 to sig up for this service. Please drink responsibly</small></p>
+                </section>
+            </div>
+        </div>
+
+
+        <section class="quotes">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="media">
+                        <div class="media-left hidden-xs">
+                            <img src="image/girl.png" class="image-circle media-object" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="quote">
+                                <p>I've been introduced to more than 10 great international whiskeys</p>
+                                <p>-Jane Doe</p>
+                            </blockquote>
+                        </div>
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="media">
+                    <div class="media-left hidden-xs">
+                        <img src="image/guy.png" class="image-circle media-object" height=100 width=100>
+                    </div>
+                    <div class="media-body">
+                        <blockquote class="quote">
+                            <p>I haven't been sober for months!</p>
+                            <p>-Joe Bloggs</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="features">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header"></div>
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><span class="glyphicon glyphicon-gift hidden-xs"></span> Feature 1: <span class="label label-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat.</p>
+                        <p> <a class="btn btn-small btn-default" href="">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3><span class="glyphicon glyphicon-gbp hidden-xs"></span> Feature 2:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam alias consequuntur similique ipsa, iusto perspiciatis qui obcaecati assumenda quo vitae sed inventore explicabo! Maxime quod aut vel, nihil eos, numquam!</p>
+                        <p> <a class="btn btn-small btn-default" href="">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 hidden-md col-lg-4">
+                    <div class="feature">
+                        <h3><span class="glyphicon glyphicon-remove hidden-xs"></span> Feature 3:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto veritatis ex error velit ratione, accusantium sed iste labore eligendi ducimus! Delectus maiores optio ipsum incidunt, nulla ad similique quod ab.</p>
+                        <p> <a class="btn btn-small btn-default" href="">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-blockquote">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat your Password">
+                        </div>
+                </div>
+                <button type="submit" class="btn btn-success">Sign Up!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
